@@ -1,4 +1,4 @@
-This is the chat server which work using WebSockets and Redis as storage.
+This is the chat server which works using WebSockets and Redis as storage.
 
 Run command chatServer.js --help for read information about starting server.
 
