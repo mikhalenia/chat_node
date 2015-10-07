@@ -3,6 +3,7 @@ This is the chat server which works using WebSockets and Redis as storage.
 Run command chatServer.js --help for read information about starting server.
 
 You have to set Redis config(host,port,db,ttl for messages, ttl for logins) and listener as in the Example:
+```json
 {
 	"listen": {
 		"jsonrpc":"127.0.0.1:8080"
@@ -15,6 +16,7 @@ You have to set Redis config(host,port,db,ttl for messages, ttl for logins) and 
 		"ttl_user": 7200
 	}
 }
+```
 
 Connect to the Server using WebSocket and send commands by jsonrpc protocol.
 
